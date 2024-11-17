@@ -14,11 +14,11 @@ bot = commands.Bot(command_prefix='$', intents=intents)
 
 bot.remove_command("help")
 
-#xDatabase le plus beau
+#N3tBreach le plus beau
 @bot.event
 async def on_ready():
     print("Je baise edzzer")
-#xDatabase le plus beau    
+#N3tBreach le plus beau    
 
 @bot.event
 async def on_guild_join(guild):

